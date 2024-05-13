@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TicTacToe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="column_theme" parent="column">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="verticalLine_theme" parent="verticalLine">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="HorizontalLine_theme" parent="HorizontalLine">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="turnTv_theme" parent="turnTv">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
